@@ -4,8 +4,8 @@ import unittest
 from fizzBuzz import fizzBuzz
 # testSuite = unittest.TestSuite()
 
-class FizzBuzzTests(unittest.TestCase):
-  
+class fizzBuzz(unittest.TestCase):
+
   # def test_fb1_returns_1(self):
   #   result = fizzBuzz(1)
   #   expected = 1  
@@ -31,8 +31,8 @@ class FizzBuzzTests(unittest.TestCase):
     self.assertEqual(fizzBuzz(30), 'FIZZBUZZ')
 
 
-  # def main():
-  #   unittest.main()
+  def main():
+    unittest.main()
 
 # ____Run the tests____
  if __name__ == '__main__':
